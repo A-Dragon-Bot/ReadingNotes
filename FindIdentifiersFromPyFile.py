@@ -5,12 +5,6 @@
 #    Find all the identifiers of class, function, and all kinds of variables,
 #    using Regular Expression
 # --------------------
-# Author: Dong Fuguo
-# QQ: 306467355
-# Email: dongfuguo2005@126.com
-#--------------------
-# Date: 2014-11-24, Updated on 2016-7-16
-# --------------------
 
 import re
 import os
@@ -104,10 +98,10 @@ def comments(index):
             return i+1
         
 if __name__ == '__main__':
-    fileName = sys.argv[1]         #ÃüÁîĞĞ²ÎÊı
+    fileName = sys.argv[1]         #å‘½ä»¤è¡Œå‚æ•°
     if not os.path.isfile(fileName):
         print('Your input is not a file.')
-        sys.exit(0)                #ÍË³öµ±Ç°³ÌĞò
+        sys.exit(0)                #é€€å‡ºå½“å‰ç¨‹åº
     if not fileName.endswith('.py'):
         print('Sorry. I can only check Python source file.')
         sys.exit(0)
