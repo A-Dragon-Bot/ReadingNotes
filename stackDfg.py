@@ -1,12 +1,3 @@
-﻿'''
-Author: 董付国
-部分成果：《Python程序设计基础》、《Python程序设计（第2版）》
-          《Python可以这样学》
-微信公众号：Python小屋，关注人数12000人，分享文章近500篇
-email: dongfuguo2005@126.com
-Date: 2014-11-10, Updated on 2017-12-8
-'''
-
 class Stack:
     def __init__(self, size = 10):
         '''创建栈对象并进行初始化，默认栈大小为10'''
@@ -74,12 +65,7 @@ class Stack:
         print('Stack can still PUSH ', self._size-self._current, ' elements.')
 
 if __name__ != '__main__':
-    s = '''本模块由董付国编写，仅供学习和参考，
-更多资源请关注微信公众号“Python小屋”
-或参照《Python程序设计基础》、
-      《Python程序设计（第2版）》、
-      《Python可以这样学》、《Python程序设计开发宝典》系列图书
-或与作者邮箱dongfuguo2005@126.com联系
+    s = '''
 使用方法：
         from stackDfg import Stack
         s = Stack()
