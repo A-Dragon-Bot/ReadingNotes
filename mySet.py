@@ -1,9 +1,3 @@
-'''
-Author: 董付国
-email: dongfuguo2005@126.com
-Date: 2016-8-10, Updated on 2017-4-1
-'''
-
 class Set(object):
     def __init__(self, data=None):
         if data == None:
