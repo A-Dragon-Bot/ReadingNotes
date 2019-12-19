@@ -2,13 +2,6 @@
 # --------------------
 # Function description: Array and its operating
 # --------------------
-# Author: 董付国
-# 微信公众号：Python小屋
-# Email: dongfuguo2005@126.com
-#--------------------
-# Date: 2014-11-18, Updated on 2017-12-6
-# --------------------
-
 
 class MyArray:
     '''All the elements in this array must be numbers'''
