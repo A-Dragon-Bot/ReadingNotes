@@ -4,12 +4,6 @@
 # Function description:
 # Check the code format of given Python source file
 # --------------------
-# Author: Dong Fuguo
-# QQ: 306467355
-# Email: dongfuguo2005@126.com
-#--------------------
-# Date: 2014-12-14, Updated on 2016-7-16
-# --------------------
 
 import sys
 import re
@@ -74,7 +68,7 @@ def checkFormats(lines, desFileName):
     fp.close()
             
 if __name__ == '__main__':
-    fileName = sys.argv[1]            #√¸¡Ó––≤Œ ˝
+    fileName = sys.argv[1]            #√É√º√Å√Æ√ê√ê¬≤√é√ä√Ω
     fileLines = []
     with open(fileName, 'r') as fp:
         fileLines = fp.readlines()
