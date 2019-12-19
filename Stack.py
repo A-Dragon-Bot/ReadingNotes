@@ -1,9 +1,3 @@
-﻿'''
-Author: 董付国
-email: dongfuguo2005@126.com
-Date: 2014-11-10, Updated on 2017-4-1
-'''
-
 class Stack:
     def __init__(self, size = 10):
         #使用列表存放栈的元素
