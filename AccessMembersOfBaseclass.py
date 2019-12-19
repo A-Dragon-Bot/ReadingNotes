@@ -3,12 +3,6 @@
 # --------------------
 # Function description:
 # Show how to access method and data of parent class
-# --------------------
-# Author: 董付国
-# Email: dongfuguo2005@126.com
-#--------------------
-# Date: 2014-11-27,Updated on 2017-4-4
-# --------------------
 
 class Person(object):
     def __init__(self, name = '', age = 20, sex = 'man'):
